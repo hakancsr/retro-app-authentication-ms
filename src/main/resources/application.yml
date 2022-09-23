@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: authentication-ms
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/retro?currentSchema=auth
+    username: postgres
+    password: Bf1905hc.
+  main:
+    allow-bean-definition-overriding: true
